@@ -1,0 +1,107 @@
+:root {
+  /* Colors */
+  --background1: #1e1e1e;
+  --background2: #292929;
+  --background3: #353535;
+  --background4: #373737;
+  --background5: #404040;
+  --background6: #5e5e5e;
+  --backgroundInactive: #373737;
+  --backgroundInverse: #e8e8e8;
+  --backgroundInput: rgba(0, 0, 0, 0.22);
+  --backgroundRaised: rgba(255, 255, 255, 0.07);
+
+  --actionPrimaryBackground: #006acc;
+  --actionPrimaryBackgroundHover: #187cd9;
+  --actionSecondaryBackground: rgba(255, 255, 255, 0.13);
+  --actionSecondaryBackgroundHover: rgba(255, 255, 255, 0.19);
+  --actionPrimaryText: #ffffff;
+  --actionPrimaryTextHover: #ffffff;
+
+  --border1: rgba(255, 255, 255, 0.13);
+  --border2: rgba(255, 255, 255, 0.19);
+  --border3: rgba(255, 255, 255, 0.22);
+
+  --text1: #ffffff;
+  --text2: rgba(255, 255, 255, 0.67);
+  --text3: rgba(255, 255, 255, 0.5);
+  --textInactive: rgba(255, 255, 255, 0.5);
+  --textInverse: #000000;
+
+  --blueBackground: #006acc;
+  --blueBackgroundHover: #187cd9;
+  --blueText: #a7d1ff;
+  --blueBorder: #007df0;
+
+  --greenBackground: #007a41;
+  --greenBackgroundHover: #0d8a4f;
+  --greenText: #79e09c;
+  --greenBorder: #259d4d;
+
+  --yellowBackground: #ffd301;
+  --yellowBackgroundHover: #ffde5b;
+  --yellowText: #ffd301;
+  --yellowBorder: #ffd301;
+
+  --redBackground: #e42f3a;
+  --redBackgroundHover: #cf313b;
+  --redText: #ff9c9c;
+  --redBorder: #e42f3a;
+
+  --orangeBackground: #bf4707;
+  --orangeBackgroundHover: #c95616;
+  --orangeText: #ffbc86;
+  --orangeBorder: #df640c;
+
+  --purpleBackground: #734ce0;
+  --purpleBackgroundHover: #815beb;
+  --purpleText: #c4afff;
+  --purpleBorder: #875ffd;
+
+  --pinkBackground: #b53a9a;
+  --pinkBackgroundHover: #c44aa9;
+  --pinkText: #febdff;
+  --pinkBorder: #dd2cac;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Box shadows */
+  --boxShadows-action-colored:
+    0px 0.5px 1px 0px rgba(0, 0, 0, 0.8),
+    inset 0px 0.5px 0.5px 0px rgba(255, 255, 255, 0.2);
+  --boxShadows-action-secondary:
+    0px 0.5px 1px 0px rgba(0, 0, 0, 0.8),
+    inset 0px 0.5px 0.5px 0px rgba(255, 255, 255, 0.12);
+  --boxShadows-input-inner:
+    inset 0px 16px 16px -16px rgba(0, 0, 0, 0.13),
+    inset 0px 12px 12px -12px rgba(0, 0, 0, 0.13),
+    inset 0px 8px 8px -8px rgba(0, 0, 0, 0.16),
+    inset 0px 4px 4px -4px rgba(0, 0, 0, 0.16),
+    inset 0px 3px 3px -3px rgba(0, 0, 0, 0.16),
+    inset 0px 1px 1px -1px rgba(0, 0, 0, 0.13);
+  --boxShadows-menu:
+    0px 2px 6px 0px rgba(0, 0, 0, 0.08),
+    0px 4px 8px 2px rgba(0, 0, 0, 0.08),
+    0px 8px 16px 4px rgba(0, 0, 0, 0.08),
+    0px 12px 24px 8px rgba(0, 0, 0, 0.08),
+    inset 0px 0.5px 0.5px 0px rgba(255, 255, 255, 0.12),
+    inset 0px -0.5px 0.5px 0px rgba(0, 0, 0, 0.12);
+  --boxShadows-modal:
+    0px 0.5px 0px 0px #000000,
+    0px 2px 6px 0px rgba(0, 0, 0, 0.36),
+    0px 4px 8px 2px rgba(0, 0, 0, 0.24),
+    0px 8px 16px 4px rgba(0, 0, 0, 0.16),
+    0px 12px 24px 8px rgba(0, 0, 0, 0.12),
+    inset 0px 0.5px 0.5px 0px rgba(255, 255, 255, 0.12);
+
+  /* Typography */
+  --font-stack: 'Inter', sans-serif;
+  --font-stack-code: 'Roboto Mono', sans-serif;
+  --font-size-small: 11.5px;
+  --font-size-large: 13px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --line-height-small: 16px;
+  --line-height-large: 18px;
+}
