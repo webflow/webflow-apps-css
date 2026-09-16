@@ -6,7 +6,7 @@ Use these tokens for color, typography, and shadows so your UI matches Webflow. 
 
 ## Usage
 
-Include **one** stylesheet — any of the four files works. You only need one: the others are reference so you can see how tokens look in each theme.
+Include **one** stylesheet (the others are reference so you can see how tokens look in each theme.)
 
 ```html
 <link rel="stylesheet" href="webflow-variables.css" />
